@@ -1,0 +1,295 @@
+@ charset "UTF-8"
+
+html, head, body {
+	
+	display: block;
+}
+
+html, head, body{
+	background: white;
+	
+}
+
+header{
+	background-color: #203461;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: courier new;
+	color: white;
+	
+}
+
+h2{
+	font-weight: bold;
+	font-family: courier new;
+	font-size: 50px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+footer{
+	position: relative;
+	z-index: 1;
+	color: white;
+	background-color: #203461;
+	padding-bottom: 30rem;
+	height: 20rem;
+	margin:opx;
+}
+
+.webpage-title{
+	
+	width: 100%;
+	padding-left: 3rem;
+	padding-bottom: 1rem;
+}
+
+.header-title {
+	display: inline;
+}
+
+.logo {
+	
+	position: relative;
+	float: right;
+	margin: -5rem 3rem 0rem 0rem;
+}
+
+.menu-bar {
+	width: 100%;
+	background-color: #B0B4BE;
+	
+}
+
+.menu-bar-sticky {
+	position: fixed;
+	top: 0px;
+}
+
+
+.menu-bar-ul {
+	display: inline;
+	color: white;
+	
+}
+
+.menu-bar-li {
+	display: inline;
+	
+}
+
+.menu-bar-btn {
+	position: relative;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #B0B4BE;
+	color: #203461;
+	border: none;
+	outline: none;
+
+}
+
+.menu-bar-btn:hover {
+	transition: .2s;
+	background-color: #203461;
+	color: white;
+}
+
+.menu-bar-btn:active {
+	/*top: 2px;*/
+	background-color: #27B3A6;
+}
+
+.sidebar-wrapper{ 
+	padding: 2rem;
+	left: 0;
+	width: 20rem;
+	height: 100%;
+	position: fixed;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.sidebar-btn {
+	position: relative;
+	margin-left: -6rem;
+	width: 20rem;
+	padding: 1rem;
+	margin-bottom: .5rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #203461;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+.sidebar-btn:hover {
+	background-color: #27B3A6;
+	color: #203461;
+}
+
+.sidebar-btn:active {
+	top: 2px;
+}
+
+.page-content-wrapper {
+	margin-left: 20rem;
+}
+
+.p-text {
+	font-size: 30px;
+	color: white;
+	padding: 4rem;
+	font-family: Times New Roman;
+	text-shadow: 4px 4px 8px #546E6E;
+}
+
+#p-text-blu {
+	color: #203461;
+}
+
+.start-project {
+	background-color: #9FA1A9;
+	padding: 5rem;
+	border-style: inset;
+}
+
+.get-started-btn {
+	position: relative;
+	padding: 1rem;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #27B3A6;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+}
+
+.get-started-btn:hover {
+	color: white;
+	background-color: #203461;
+	background-color: #203461;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.get-started-btn:active {
+	top: 2px;
+}
+
+.about-home {
+	margin: 0px;
+	padding: 2rem;
+	background-color: rgba(.434,.456,.515,.3);
+	background-image: url("AbstractBanner_GetStarted.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.find-developers-home {
+	margin: 0px;
+	padding: 2rem;
+	background-image: url("AbstractBanner_GetStarted.png");
+	background-size: cover;
+	background-attachment: fixed;
+	border-top: white 2px ridge;
+	/*background-color: #6D7589;*/
+}
+
+.foot-block {
+	margin: 2rem;
+	float: left;
+}
+
+.footer-label {
+	padding-top: 2rem;
+	color: #27B3A6;
+}
+
+.footer-lst-item {
+	display: block;
+	margin-left: -3.5rem;
+}
+
+.copyright {
+	position: fixed;
+	bottom: 0px;
+	right: 2rem;
+
+}
+
+.community-navbar{
+	
+	overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	list-style-type: none;
+	
+}
+
+.community-navbar-li{
+	float: left;
+	margin-top: 3rem;
+	padding: 1px;
+}
+
+.communiy-navbar-tab {
+	position: relative;
+	padding: 1rem;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #203461;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+.sign-up-box {
+	background-color: blue;
+}
+
+.sign-up-submit-btn {
+	position: relative;
+	padding: 1rem;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #27B3A6;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+}
+
+#project_banner{
+	background-image: url("AbstractBanner_Home.png");
+}
+
+#home-banner{
+	margin: 0px;
+	color: white;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	background-image: url("AbstractBanner_Home.png");
+	background-size: 250rem;
+	background-attachment: fixed;
+}
+
+#community-banner{
+	margin: 0px;
+	color: white;
+	padding-top: 10rem;
+	padding-bottom: 20rem;
+	background: linear-gradient(to bottom right, #203461 , white);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
