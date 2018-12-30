@@ -271,13 +271,14 @@ footer{
 
 /*For the Forum link on the toobar*/
 .ForumDropDown-Content{
-	display:none;
+	display: block;
 	padding:15px;
 	margin-right: -30px;
 	margin-left: -60px;
 	margin-top: -10px;
 	background-color: #9FA1A9;
 }
+
 
 .ForumDropDown-Content a{
 	color: #203461;
@@ -286,12 +287,9 @@ footer{
 }
 
 .ForumDropDown-Content a:hover{
-	background-color: #bbb
+	background-color: #bbb;
 }
 
-.sidebar-btn:hover .ForumDropDown-Content{
-	display: block;
-}
 
 #project_banner{
 	background-image: url("img/Homepage_banner_3.png");
