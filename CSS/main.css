@@ -41,6 +41,29 @@ footer{
 	margin:opx;
 }
 
+p {
+	color: #09116F;
+	font-size: 30px;
+	margin: 0px;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	}
+li{
+	font-size: 15px;
+	}
+
+.index-h1 {
+	color: #131D9C;
+	font-size: 70px;
+	margin: 0px;
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	}
+
+
+
 .webpage-title{
 
 	width: 100%;
