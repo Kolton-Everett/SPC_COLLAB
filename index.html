@@ -4,7 +4,7 @@
 		<title>
 			Home | SPC COLLAB
 		</title>
-		<link rel="icon" href="Logo.png">
+		<link rel="icon" href="../img/SPC_logo.png">
 		<!-- I've disabled the Style sheets for now so we can see what the HTML looks like alone-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="CSS/main.css">
@@ -18,7 +18,7 @@
 		<header class="webpage-title">
 			<div class="row" id="header-title">
 				<h1><font color="#f67c29" size="6">SPC</font><font color="#B0B4BE" size="5">COLLAB</h1>
-				<img class="logo" src="Logo.png" height="40px" width="40px">
+				<img class="logo" src="img/SPC_logo.png" height="36px" width="200px">
 			</div>
 		</header>
 
@@ -27,16 +27,17 @@
 			<div>
 				<nav>
 					<ul class="menu-bar-ul">
-						<li class="menu-bar-li"><a href="index.php"><button class="menu-bar-btn" type="button">Home</button></a></li>
+						<li class="menu-bar-li"><a href="index.html"><button class="menu-bar-btn" type="button">Home</button></a></li>
 						<li class="menu-bar-li"><a href="community.html"><button class="menu-bar-btn" type="button">Community</button></a></li>
 						<li class="menu-bar-li"><a href="projects.php"><button class="menu-bar-btn" type="button">Projects</button></a></li>
+						<li class="menu-bar-li"><a href=""><button class="menu-bar-btn" type="button">About</button></a></li>
 
 						<a href="login.html"><button class="menu-bar-btn" align="right" style="float: right;">Login</button></a>
 					</ul>
 				</nav>
 			</div>
 		</header>
-		<script src="script.js"></script>
+		<script src="JS/Index/script.js"></script>
 
 
 		<div id="wrapper">
@@ -45,12 +46,22 @@
 			<div class="sidebar-wrapper">
 				<nav>
 					<ul>
-						<li class="menu-bar-li"><button class="sidebar-btn" type="button" onclick="location.hrerf='forum.html'">Forum</button></li>
-						<li class="menu-bar-li"><button class="sidebar-btn" type="button" onclick="location.hrerf='help.html'">Help</button></li>
-						<li class="menu-bar-li"><button class="sidebar-btn" type="button" onclick="location.hrerf='#'">Contact</button></li>
-						<li class="menu-bar-li"><button class="sidebar-btn" type="button" onclick="location.hrerf='findOthers.html'">Find Others</button></li>
-					</ul>
+						<!-- Dropdown -->
+						<script src="JS/Index/main.js"></script>
+						<li class="menu-bar-li"> <!--This class needs to be recreated in the css-->
+							<button class="sidebar-btn">Forum</button>
+							<div id="forum_dropdown" class = "ForumDropDown-Content">
+								<a href="#">Math</a>
+								<a href="#">Sciences</a>
+								<a href="#">Computer Science</a>
+								<a href="#">Engineering</a>
+							</div>
+						</li>
 
+						<!-- end dropdown -->
+						<li class="menu-bar-li"><a href="helppage.html"><button class="sidebar-btn" type="button">Help</button></a></li>
+						<li class="menu-bar-li"><a href="#"><button class="sidebar-btn" type="button" onclick="location.hrerf='findOthers.html'">Find Others</button></a></li>
+					</ul>
 				</nav>
 			</div>
 
@@ -59,15 +70,16 @@
 			<div class="page-content-wrapper">
 
 				<section class="jumbotron" id="home-banner">
+					<!--
 					<div class="row text-center">
 						<h2>Harnessing Group Productivity</h2>
 					</div>
+				-->
 				</section>
 
 				<section class="start-project">
 					<p class="p-text" id="p-text-blu" align="center">
-					Start your own project, and invite other students to join your team! <br>You can also submit material for review by other students.
-					</p>
+					Need help? This platform allows students to easily ask questions and access tutors in their department. <br>Click below to sign up and get started!
 					<div class="row text-center">
 						<button class="get-started-btn" type="button" onclick="location.hrerf='index.html'">Get Started</button>
 					</div>
@@ -75,11 +87,11 @@
 
 				<section class="about-home">
 					<h1 align="center">About SPC-Collab</h1>
-					<p class="p-text"align="center"> This platform is designed to allow students from various backgrounds to collaborate. Users can submit material for review by other students and receive quick feedback. Ultimately, this platform was created to allow students to contact one another, and participate in a group  development environment. Furthermore, it is a good place to find students that can assist you in making your ideas come to life.</p>
-					<p class="p-text"align="center"> This platform also allows students to receive help from other students on Home Work, studying for tests, and other assignments.</p>
+					<p class="p-text"align="center"> This platform is designed to allow students from various backgrounds to collaborate. Students can find tutors in there respective departments or subjects in order to receive quick feedback. Students can also use the online forum to ask more general questions to a wider audience.</p>
+					<p class="p-text"align="center"> This is also a good place to find students that can assist you in making your ideas come to life. Together, groups can work on Home Work, study for tests, and wokr on other assignments.</p>
 				</section>
 
-				<section class="find-developers-home">
+				<section class="find-students-home">
 					<h1 align="center">
 					Find Other Students
 					</h1>
