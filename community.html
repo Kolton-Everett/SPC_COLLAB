@@ -28,7 +28,7 @@
 				<nav>
 					<ul class="menu-bar-ul">
 						<li class="menu-bar-li"><a href="index.html"><button class="menu-bar-btn" type="button">Home</button></a></li>
-						<li class="menu-bar-li"><a href="community.html"><button class="menu-bar-btn" type="button">Community</button></a></li>
+						<li class="menu-bar-li"><a href="#"><button class="menu-bar-btn" type="button">Community</button></a></li>
 						<li class="menu-bar-li"><a href="#"><button class="menu-bar-btn" type="button">Projects</button></a></li>
 						<li class="menu-bar-li"><a href="about.html"><button class="menu-bar-btn" type="button">About</button></a></li>
 
@@ -69,15 +69,29 @@
 
 			<div class="page-content-wrapper">
 
-				<section class="jumbotron" id="home-banner">
-					<!--
-					<div class="row text-center">
-						<h2>Harnessing Group Productivity</h2>
-					</div>
-				-->
-				</section>
+				<!-- Forum Menu bar-->
+				<!--src="JS/Index/main.js"-->
+				<script>
+				//show question box:
+				function showQbox(){
+					document.getElementByClassName("ask-question").style.display="block";
+				}
+				</script>
+				<div class="Forum-Menu">
+					<nav>
+						<ul class="menu-bar-ul">
+							<li class="menu-bar-li"><button class="forum-bar-btn" type="button" onclick="showQbox()">Ask Question</button></li>
+							<li class="menu-bar-li"><a href="community.html"><button class="forum-bar-btn" type="button">Open Tutor Labs</button></a></li>
 
-				<section class="start-project">
+						</ul>
+					</nav>
+				</div>
+
+
+				<!-- End Forum Menu bar-->
+
+				<!-- Question Box -->
+				<section class="ask-question">
 					<p class="p-text" id="p-text-blu" align="center">
 					Need help? This platform allows students to easily ask questions and access tutors in their department. <br>Click below to sign up and get started!
 					<div class="row text-center">
@@ -100,6 +114,7 @@
 			</div>
 
 		</div>
+		<!--End Page Content-->
 
 		<!-- Footer -->
 		<footer>

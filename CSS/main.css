@@ -120,13 +120,13 @@ li{
 
 .menu-bar-btn:hover {
 	transition: .2s;
-	background-color: #203461;
-	color: white;
+	background-color: #f67c29;
+	color: black;
 }
 
 .menu-bar-btn:active {
 	/*top: 2px;*/
-	background-color: #27B3A6;
+	background-color: #f67c29;
 }
 
 .sidebar-wrapper{
@@ -134,7 +134,7 @@ li{
 
 	left: 0;
 	width: 20rem;
-	height: 100%;
+	height: 200rem;
 	position: fixed;
 	background-color: white;
 	overflow-x: hidden;
@@ -155,7 +155,7 @@ li{
 }
 
 .sidebar-btn:hover {
-	background-color: #27B3A6;
+	background-color: #f67c29;
 	color: #203461;
 }
 
@@ -191,8 +191,8 @@ li{
 	padding: 1rem;
 	font-size: 18px;
 	font-family: Times New Roman;
-	background-color: #27B3A6;
-	color: white;
+	background-color: #f67c29;
+	color: black;
 	border: none;
 	border-radius: 2px;
 	outline: none;
@@ -375,6 +375,48 @@ li{
 }
 
 /* End Login Form styles*/
+
+/*For Community Page*/
+.Forum-Menu{
+	background-color: white;
+	padding:2rem;
+	padding-bottom:4rem;
+	z-index: -1;
+}
+
+.forum-bar-btn {
+	margin:5px;
+	float:right;
+	position: relative;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #B0B4BE;
+	color: #203461;
+	border: none;
+	outline: none;
+}
+
+.forum-bar-btn:hover {
+	transition: .2s;
+	background-color: #f67c29;
+	color: black;
+}
+
+.forum-bar-btn:active {
+	/*top: 2px;*/
+	background-color: #f67c29;
+}
+
+.ask-question{
+	display:block;
+
+}
+
+
+
+
+
 
 #project_banner{
 	background-image: url("img/Homepage_banner_3.png");

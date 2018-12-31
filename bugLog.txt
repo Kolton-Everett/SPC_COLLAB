@@ -1,0 +1,10 @@
+
+
+// CSS error with menus//
+12/31/18 -
+I noticed that all buttons on a page do this when they cover the menu. 
+I tried adjusting the CSS on the wrapper to have a z-index less than that of the menu bar
+ (basically this should have made the menu appear in fron tof the buttons). 
+That didn't work, so we need to figure what exactly is wrong with this.
+
+
