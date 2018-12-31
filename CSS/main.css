@@ -49,13 +49,13 @@ li{
 	color: #09116F;
 	font-size: 30px;
 	margin: 0px;
-	background-color: white;
+
 	text-align: center;
 	padding: 10px;
 	}
 
 .index-h1 {
-	color: #131D9C;
+	color: #203461;
 	font-size: 70px;
 	margin: 0px;
 	text-align: center;
@@ -312,6 +312,16 @@ li{
 
 .ForumDropDown-Content a:hover{
 	background-color: #bbb;
+}
+
+.generic-section-background{
+	background-color: white;
+	/*
+	other possiblities:
+	#2A3D57 "dark blue"
+
+
+	*/
 }
 
 
