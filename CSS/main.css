@@ -449,7 +449,13 @@ li{
 	outline: none;
 }
 
+.forum-posts{
+	padding-bottom:10rem;
+
+}
+
 .recent-post-table{
+	border: dashed black;
 	margin-left: auto;
   margin-right: auto;
 	padding:100rem;
@@ -457,15 +463,24 @@ li{
 }
 
 .recent-post-tr{
+
 	display:inline;
 	margin-left: auto;
   margin-right: auto;
 }
 
 .recent-post-th{
+
 	display:inline;
-	padding:5rem;
+	padding:10rem;
 	padding-right:10rem;
+	color:black;
+}
+.recent-post-td{
+
+
+	padding-right:5rem;
+	padding-left:10rem;
 	color:black;
 }
 
