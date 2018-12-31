@@ -120,8 +120,8 @@ li{
 
 .menu-bar-btn:hover {
 	transition: .2s;
-	background-color: #f67c29;
-	color: black;
+	background-color: #203461;
+	color: white;
 }
 
 .menu-bar-btn:active {
@@ -405,19 +405,71 @@ li{
 
 .forum-bar-btn:active {
 	/*top: 2px;*/
-	background-color: #f67c29;
+	background-color: #203461;
 }
+
 
 .ask-question{
 	display:block;
+	padding-bottom: 80px;
+}
+.question-text-box{
+	border:solid #203461;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width:1000px;
+	max-width:1000px;
+	min-width:1000px;
+	max-height: 500px;
+	height:200px;
+	margin-bottom:15px;
+}
+
+.push-right{
+	margin-left: auto;
+  margin-right: auto;
+
+	width:1000px;
+	background-color: black;
 
 }
 
+.Q-submit-btn{
+	float:right;
+	position: relative;
+	padding: 1rem;
+	padding: 1rem;
+	font-size: 18px;
+	font-family: Times New Roman;
+	background-color: #203461;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+}
 
+.recent-post-table{
+	margin-left: auto;
+  margin-right: auto;
+	padding:100rem;
+	background-color: #B0B4BE;
+}
 
+.recent-post-tr{
+	display:inline;
+	margin-left: auto;
+  margin-right: auto;
+}
 
+.recent-post-th{
+	display:inline;
+	padding:5rem;
+	padding-right:10rem;
+	color:black;
+}
 
-
+/*End Community page style*/
 #project_banner{
 	background-image: url("img/Homepage_banner_3.png");
 }

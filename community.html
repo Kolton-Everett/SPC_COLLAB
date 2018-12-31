@@ -5,7 +5,7 @@
 			Home | SPC COLLAB
 		</title>
 		<link rel="icon" href="../img/SPC_logo.png">
-		<!-- I've disabled the Style sheets for now so we can see what the HTML looks like alone-->
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="CSS/main.css">
 
@@ -70,17 +70,10 @@
 			<div class="page-content-wrapper">
 
 				<!-- Forum Menu bar-->
-				<!--src="JS/Index/main.js"-->
-				<script>
-				//show question box:
-				function showQbox(){
-					document.getElementByClassName("ask-question").style.display="block";
-				}
-				</script>
 				<div class="Forum-Menu">
 					<nav>
 						<ul class="menu-bar-ul">
-							<li class="menu-bar-li"><button class="forum-bar-btn" type="button" onclick="showQbox()">Ask Question</button></li>
+							<li class="menu-bar-li"><a><button class="forum-bar-btn" type="button" onclick="showQbox()">Ask Question</button></a></li>
 							<li class="menu-bar-li"><a href="community.html"><button class="forum-bar-btn" type="button">Open Tutor Labs</button></a></li>
 
 						</ul>
@@ -91,18 +84,33 @@
 				<!-- End Forum Menu bar-->
 
 				<!-- Question Box -->
+				<!-- Having issues with JS function not working -->
+				<script src="JS/Index/main.js"></script>
 				<section class="ask-question">
-					<p class="p-text" id="p-text-blu" align="center">
-					Need help? This platform allows students to easily ask questions and access tutors in their department. <br>Click below to sign up and get started!
-					<div class="row text-center">
-						<button class="get-started-btn" type="button" onclick="location.hrerf='index.html'">Get Started</button>
+					<p class="index-p" id="p-text-blu" align="center">
+						Enter your question below
+				  </p>
+				  <textarea class="question-text-box" align="center">
+							Enter question here
+				  </textarea>
+					<div class="push-right">
+						<button class="Q-submit-btn" type="button" onclick="location.hrerf='index.html'">Submit Quesiton</button>
 					</div>
 				</section>
 
-				<section class="about-home">
-					<h1 align="center">About SPC-Collab</h1>
-					<p class="p-text"align="center"> This platform is designed to allow students from various backgrounds to collaborate. Students can find tutors in there respective departments or subjects in order to receive quick feedback. Students can also use the online forum to ask more general questions to a wider audience.</p>
-					<p class="p-text"align="center"> This is also a good place to find students that can assist you in making your ideas come to life. Together, groups can work on Home Work, study for tests, and wokr on other assignments.</p>
+				<section class="forum-posts">
+					<p align="left"
+					style="margin-left:50px;
+					color:#203461;
+					">
+					Recent Questions</p>
+					<table class="recent-post-table">
+						<tr class="recent-post-tr">
+							<th class="recent-post-th">Name</th>
+							<th class="recent-post-th">Description</th>
+							<th class="recent-post-th">Subject</th>
+						<tr>
+					</table>
 				</section>
 
 				<section class="find-students-home">

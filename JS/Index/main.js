@@ -17,5 +17,5 @@ window.onclick = function(event){
 
 //show question box:
 function showQbox(){
-  document.getElementByClassName("ask-question").style.display="block";  
+  document.getElementByClassName("ask-question").style.display = "block";
 }
