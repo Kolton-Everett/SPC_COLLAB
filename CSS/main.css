@@ -131,6 +131,7 @@ li{
 
 .sidebar-wrapper{
 	padding: 2rem;
+
 	left: 0;
 	width: 20rem;
 	height: 100%;
@@ -324,6 +325,56 @@ li{
 	*/
 }
 
+/* ***For the Login Page****/
+
+/*Login form*/
+.login-page{
+
+	width: cover;
+	height:70rem;
+	padding: 5% 0 0;
+	margin: auto;
+	background:linear-gradient(to bottom right, #858891 , white);
+}
+
+/*Blue Background*/
+.form{
+	position: relative;
+	z-index: 1;
+	background-color: #203461;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: white;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background:	#f67c29;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: white;
+	margin-top: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* End Login Form styles*/
 
 #project_banner{
 	background-image: url("img/Homepage_banner_3.png");

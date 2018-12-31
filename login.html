@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>
+			Sign Up | CO-DEV
+		</title>
+		<link rel="icon" href="Logo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="CSS/main.css">
+	</head>
+
+	<body>
+		<!-- Head and Webpage Title -->
+		<header class="webpage-title">
+			<div class="row" id="header-title">
+				<h1><font color="#f67c29" size="6">SPC</font><font color="#B0B4BE" size="5">COLLAB</h1>
+				<a href="https://portal.southplainscollege.edu"><img class="logo" src="img/SPC_logo.png" height="36px" width="200px"></a>
+			</div>
+		</header>
+
+		<!-- Menubar -->
+		<header class="menu-bar" id="navbar">
+			<div>
+				<nav>
+					<ul class="menu-bar-ul">
+						<li class="menu-bar-li"><a href="index.html"><button class="menu-bar-btn" type="button">Home</button></a></li>
+						<li class="menu-bar-li"><a href="#"><button class="menu-bar-btn" type="button">Community</button></a></li>
+						<li class="menu-bar-li"><a href="#"><button class="menu-bar-btn" type="button">Projects</button></a></li>
+						<li class="menu-bar-li"><a href="about.html"><button class="menu-bar-btn" type="button">About</button></a></li>
+
+						<a href="login.html"><button class="menu-bar-btn" align="right" style="float: right;">Login</button></a>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<script src="JS/Index/script.js"></script>
+
+
+		<!-- Sidebar -->
+		<div class="sidebar-wrapper">
+			<nav>
+				<ul>
+					<!-- Dropdown -->
+					<!--<script src="JS/Index/main.js"></script>-->
+					<li class="menu-bar-li"> <!--This class needs to be recreated in the css-->
+						<button class="sidebar-btn">Forum</button>
+						<div id="forum_dropdown" class = "ForumDropDown-Content">
+							<a href="#"><font size="5">Math</font></a>
+							<a href="#"><font size="5">Sciences</font></a>
+							<a href="#"><font size="5">Computer Science</font></a>
+							<a href="#"><font size="5">Engineering</font></a>
+						</div>
+					</li>
+
+					<!-- end dropdown -->
+					<li class="menu-bar-li"><a href="helppage.html"><button class="sidebar-btn" type="button">Help</button></a></li>
+					<li class="menu-bar-li"><a href="#"><button class="sidebar-btn" type="button" onclick="location.hrerf='findOthers.html'">Find Others</button></a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Login Form -->
+		<div class="login-page">
+			<div class="form">
+				<form class="register-form">
+					<input type="text" name="first" placeholder="Firstname">
+					<input type="text" name="last" placeholder="Lastname">
+					<input type="text" name="email" placeholder="E-mail">
+					<input type="text" name="uid" placeholder="Username">
+					<input type="password" name="pwd" placeholder="Password">
+					<button>Register</button>
+				</form>
+			</div>
+
+		</div>
+		<!-- Footer -->
+		<footer>
+
+			<div class="foot-block">
+				<h1 class="footer-label">SPC-Collab</h1>
+				<ul>
+					<li class="footer-lst-item">About</li>
+					<li class="footer-lst-item">Help</li>
+					<li class="footer-lst-item">Community</li>
+					<li class="footer-lst-item">Contact Us</li>
+				</ul>
+			</div>
+
+			<div class="foot-block">
+				<h1 class="footer-label">Find Tutors</h1>
+				<ul>
+					<li class="footer-lst-item">Math</li>
+					<li class="footer-lst-item">Science</li>
+					<li class="footer-lst-item">Arts</li>
+					<li class="footer-lst-item">Computer Science</li>
+					<li class="footer-lst-item">Other</li>
+				</ul>
+			</div>
+
+			<div class="foot-block">
+				<h1 class="footer-label">Forum</h1>
+				<ul>
+					<li class="footer-lst-item">Ask Questions</li>
+					<li class="footer-lst-item">FAQ</li>
+				</ul>
+			</div>
+
+
+			<h4 class="copyright">&copy; SPC-Collab 2018</h4>
+
+		</footer>
+
+
+	</body>
+</html>
